@@ -1,0 +1,13 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "partners": "Partners",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "home": {
+        "h2": "Our solutions are awesome",
+        "p": ""
+    }
+}

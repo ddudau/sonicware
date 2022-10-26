@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  currentLang = 'ro';
+  constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.currentLang = event.lang;
+    });
+    this.currentLang = this.translate.currentLang;
   }
 
 }
