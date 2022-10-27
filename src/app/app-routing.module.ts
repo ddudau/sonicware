@@ -26,4 +26,4 @@ export const routingConfiguration: ExtraOptions = {
     RouterModule
   ]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

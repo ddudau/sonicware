@@ -1,3 +1,3 @@
 export class Service {
-    id: string;
+  id: string;
 }   

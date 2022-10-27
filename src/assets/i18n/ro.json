@@ -1,13 +1,13 @@
 {
-    "nav": {
-        "home": "Acasa",
-        "services": "Servicii",
-        "partners": "Parteneri",
-        "about": "Despre noi",
-        "contact": "Contact"
-    },
-    "home": {
-        "h2": "Our solutions are awesome_ro",
-        "p": ""
-    }
+  "nav": {
+    "home": "Acasa",
+    "services": "Servicii",
+    "partners": "Parteneri",
+    "about": "Despre noi",
+    "contact": "Contact"
+  },
+  "home": {
+    "h2": "Our solutions are awesome_ro",
+    "p": ""
+  }
 }
