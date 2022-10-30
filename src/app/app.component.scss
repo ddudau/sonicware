@@ -1,0 +1,13 @@
+.navbar {
+  background: transparent;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.sticky {
+  background: rgba(var(--bs-light-rgb), 1);
+}
+
+footer {
+  height: 100%;
+}

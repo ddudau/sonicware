@@ -6,3 +6,15 @@ body {
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+/*
+section:first-of-type {
+  top: 76px;
+}*/
+
+section {
+  position: relative;
+}
+
+.container {
+  position: relative;
+}

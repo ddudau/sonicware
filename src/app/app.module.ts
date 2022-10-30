@@ -14,6 +14,10 @@ import { CoreModule } from './core/core.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
+import { environment } from 'src/environments/environment';
+import { FieldErrorDisplayComponent } from './pages/contact/field-error-display/field-error-display.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -26,7 +30,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ServicesComponent,
     AboutComponent,
     ContactComponent,
-    PartnersComponent
+    PartnersComponent,
+    FieldErrorDisplayComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +40,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     CoreModule,
     NgbModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -42,9 +48,16 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       },
       defaultLanguage: 'ro',
-    })
+    }),
+    FormsModule,
+    RecaptchaV3Module
   ],
-  providers: [],
+  providers: [
+    {
+      provide: RECAPTCHA_V3_SITE_KEY,
+      useValue: environment.recaptcha.siteKey,
+    }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm fixed-top bg-light">
+<nav id="navbar" class="navbar navbar-expand-sm fixed-top" (scroll)="onWindowScroll($event);">
   <div class="container">
     <a class="navbar-brand" href="#" routerLink="/home" role="button">
       <img src="../assets/images/logo.png" height="50" alt="" class="d-inline-block align-middle mr-2">
@@ -35,3 +35,18 @@
   </div>
 </nav>
 <router-outlet></router-outlet>
+<footer class="bg-light py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" routerLink="/home" class="nav-link px-2 text-muted">{{ 'nav.home' | translate
+        }}</a></li>
+    <li class="nav-item"><a href="#" routerLink="/services" class="nav-link px-2 text-muted">{{ 'nav.services' |
+        translate }}</a></li>
+    <li class="nav-item"><a href="#" routerLink="/partners" class="nav-link px-2 text-muted">{{ 'nav.partners' |
+        translate }}</a></li>
+    <li class="nav-item"><a href="#" routerLink="/about" class="nav-link px-2 text-muted">{{ 'nav.about' | translate
+        }}</a></li>
+    <li class="nav-item"><a href="#" routerLink="/contact" class="nav-link px-2 text-muted">{{ 'nav.contact' | translate
+        }}</a></li>
+  </ul>
+  <p class="text-center text-muted">&copy; 2022 SONICWARE, SRL</p>
+</footer>

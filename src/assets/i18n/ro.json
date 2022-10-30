@@ -9,5 +9,20 @@
   "home": {
     "h2": "Our solutions are awesome_ro",
     "p": ""
+  },
+  "contact": {
+    "firstName": "Prenume",
+    "firstNameError": "Prenumele este obligatoriu",
+    "lastName": "Nume",
+    "lastNameError": "Numele este obligatoriu",
+    "email": "Adresa de email",
+    "emailError": "Adresa de email este obligatorie",
+    "phone": "Numar de telefon",
+    "phoneError": "Numarul de telefon este obligatoriu",
+    "message": "Mesaj",
+    "messageError": "Mesajul este obligatoriu",
+    "terms": "Accepta termeni si conditii",
+    "termsError": "Va rugam sa acceptati termenii si conditiile",
+    "submit": "Trimite"
   }
 }

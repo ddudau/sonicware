@@ -9,5 +9,20 @@
   "home": {
     "h2": "Our solutions are awesome",
     "p": ""
+  },
+  "contact": {
+    "firstName": "First name",
+    "firstNameError": "First name is required",
+    "lastName": "Last name",
+    "lastNameError": "Last name is required",
+    "email": "Email address",
+    "emailError": "Email address is required",
+    "phone": "Phone number",
+    "phoneError": "Phone number is required",
+    "message": "Message",
+    "messageError": "Message is required",
+    "terms": "Accept terms and conditions",
+    "termsError": "Please accept the terms and conditions",
+    "submit": "Submit"
   }
 }
