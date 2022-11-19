@@ -1,28 +1,33 @@
 {
   "nav": {
-    "home": "AcasaFr",
-    "services": "Servicii",
-    "partners": "Parteneri",
-    "about": "Despre noi",
-    "contact": "Contact"
+    "home": "Accueil",
+    "services": "Prestations de service",
+    "partners": "Partenaires",
+    "about": "À propos de nous",
+    "contact": "Contactez",
+    "language": "Language"
   },
   "home": {
-    "h2": "Our solutions are awesome_ro",
+    "h2": "Les entreprises font confiance à nos services",
     "p": ""
   },
   "contact": {
     "firstName": "Prenume",
-    "firstNameError": "First name is required",
     "lastName": "Nume",
-    "lastNameError": "Last name is required",
     "email": "Email address",
-    "emailError": "Email address is required",
     "phone": "Phone number",
-    "phoneError": "Phone number is required",
     "message": "Message",
-    "messageError": "Message is required",
     "terms": "Accept terms and conditions",
     "termsError": "Please accept the terms and conditions",
-    "submit": "Trimite"
+    "submit": "Trimite",
+    "titleLeft": "Say hello to us!",
+    "subTitleLeft": "Let us know more about you!",
+    "titleRight": "Contact information",
+    "subTitleRightLine1": "Iasomiei 98",
+    "subTitleRightLine2": "Ghimbav, 507075",
+    "subTitleRightLine3": "Brasov, Romania",
+    "subTitleRightLine4": "Call us, +40(764)595959",
+    "subTitleRightLine5": "Email: dragos@sonicware.pro",
+    "socialMediaTitle": "Follow us"
   }
 }

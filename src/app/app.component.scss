@@ -1,13 +1,20 @@
 .navbar {
-  background: transparent;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.sticky {
-  background: rgba(var(--bs-light-rgb), 1);
+@media (max-width: 576px) {
+  .navbar {
+    background: rgba(var(--bs-light-rgb), 1);
+  }
 }
 
-footer {
-  height: 100%;
+@media (min-width: 576px) {
+  .navbar {
+    background: transparent;
+  }
+}
+
+.sticky {
+  background: rgba(var(--bs-light-rgb), 1);
 }

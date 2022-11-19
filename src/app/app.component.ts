@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import packageJson from '../../package.json';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  public version: string = packageJson.version;
   languages = [
     { code: 'en', label: 'English' },
     { code: 'ro', label: 'Romana' },
@@ -15,6 +17,7 @@ export class AppComponent implements OnInit {
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('ro');
     this.translate.use('ro');
+    console.log(this.version);
   }
 
   changeLang(lang: string) {

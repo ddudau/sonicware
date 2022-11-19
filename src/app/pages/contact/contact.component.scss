@@ -1,4 +1,9 @@
-.contact {
-  top: 72px;
-  padding-bottom: 72px;
+.contact>.container {
+  padding: 230px 0 320px 0;
+}
+
+@media (max-width: 1280px) {
+  .contact>.container {
+    padding: 100px 0;
+  }
 }

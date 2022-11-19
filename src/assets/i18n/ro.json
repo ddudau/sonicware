@@ -1,28 +1,37 @@
 {
   "nav": {
-    "home": "Acasa",
+    "home": "Acasă",
     "services": "Servicii",
     "partners": "Parteneri",
     "about": "Despre noi",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Limba"
   },
   "home": {
-    "h2": "Our solutions are awesome_ro",
-    "p": ""
+    "h2": "Oferim software personalizat și soluții web",
+    "p": "Suntem o echipă de experți pregătiți, profesioniști și foarte motivați. Lucrăm în mod agil și urmăm cele mai bune practici pentru a oferi calitate clienților noștri. Ne concentrăm pe cele mai recente tehnologii și tendințe care sunt pe piață.",
+    "info": {
+      "h2": "Va oferim c",
+      "p": "suntem n"
+    }
   },
   "contact": {
     "firstName": "Prenume",
-    "firstNameError": "Prenumele este obligatoriu",
     "lastName": "Nume",
-    "lastNameError": "Numele este obligatoriu",
     "email": "Adresa de email",
-    "emailError": "Adresa de email este obligatorie",
     "phone": "Numar de telefon",
-    "phoneError": "Numarul de telefon este obligatoriu",
     "message": "Mesaj",
-    "messageError": "Mesajul este obligatoriu",
     "terms": "Accepta termeni si conditii",
     "termsError": "Va rugam sa acceptati termenii si conditiile",
-    "submit": "Trimite"
+    "submit": "Trimite",
+    "titleLeft": "Salut!",
+    "subTitleLeft": "Cu ce te putem ajuta?",
+    "titleRight": "Informatii",
+    "subTitleRightLine1": "Iasomiei 98",
+    "subTitleRightLine2": "Ghimbav, 507075",
+    "subTitleRightLine3": "Brasov, Romania",
+    "subTitleRightLine4": "Suna-ne, +40(764)595959",
+    "subTitleRightLine5": "Email: dragos@sonicware.pro",
+    "socialMediaTitle": "Urmareste-ne"
   }
 }

@@ -27,7 +27,6 @@
     "@ngx-translate/http-loader": "7.0.0",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
-    "bootstrap-icons": "^1.9.1",
     "json-server": "^0.17.0",
     "ng-recaptcha": "^10.0.0",
     "rxjs": "~7.5.0",

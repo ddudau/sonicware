@@ -1,54 +1,67 @@
-<section class="contact">
+<section class="contact bg-light">
   <div class="container">
-    <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
-      <div class="mb-3">
-        <label for="firstName" class="form-label">{{ 'contact.firstName' | translate}} *</label>
-        <input type="text" class="form-control" id="firstName" formControlName="firstName" required
-          [ngClass]="displayFieldCss('firstName')">
-        <app-field-error-display [displayError]="isFieldValid('firstName')"
-          errorMsg="{{ 'contact.firstNameError' | translate}}">
-        </app-field-error-display>
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="row">
+          <h2 class="display-7 fw-bolder">{{ 'contact.titleLeft' | translate }}</h2>
+          <p class="fw-lighter">{{ 'contact.subTitleLeft' | translate }}</p>
+        </div>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+          <div class="row g-1">
+            <div class="col-6">
+              <input type="text" class="form-control" id="firstName" formControlName="firstName" required
+                [ngClass]="displayFieldCss('firstName')" placeholder="{{ 'contact.firstName' | translate}} *">
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control" id="lastName" formControlName="lastName" required
+                [ngClass]="displayFieldCss('lastName')" placeholder="{{ 'contact.lastName' | translate}} *">
+            </div>
+            <div class="col-6">
+              <input type="email" class="form-control" formControlName="email" aria-describedby="emailHelp" required
+                email [ngClass]="displayFieldCss('email')" placeholder="{{ 'contact.email' | translate}} *">
+            </div>
+            <div class="col-6">
+              <input type="tel" class="form-control" formControlName="phone" id="phone" required
+                [ngClass]="displayFieldCss('phone')" placeholder="{{ 'contact.phone' | translate}} *">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" formControlName="message" id="message" required
+                [ngClass]="displayFieldCss('message')" rows="3"
+                placeholder="{{ 'contact.message' | translate}} *"></textarea>
+            </div>
+            <div class="col-12 form-check">
+              <label class="form-check-label" for="termsAndConditions">{{ 'contact.terms' | translate}}</label>
+              <input type="checkbox" class="form-check-input" id="termsAndConditions" formControlName="terms" required
+                [ngClass]="displayFieldCss('terms')">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">{{ 'contact.submit' | translate}}</button>
+        </form>
       </div>
-      <div class="mb-3">
-        <label for="lastName" class="form-label">{{ 'contact.lastName' | translate}} *</label>
-        <input type="text" class="form-control" id="lastName" formControlName="lastName" required
-          [ngClass]="displayFieldCss('lastName')">
-        <app-field-error-display [displayError]="isFieldValid('lastName')"
-          errorMsg="{{ 'contact.lastNameError' | translate}}">
-        </app-field-error-display>
+      <div class="col-sm-5">
+        <div class="row">
+          <h2 class="display-7 fw-bolder">{{ 'contact.titleRight' | translate }}</h2>
+        </div>
+        <div class="row pt-5">
+          <p class="font-monospace">
+            {{ 'contact.subTitleRightLine1' | translate }}<br>
+            {{ 'contact.subTitleRightLine2' | translate }}<br>
+            {{ 'contact.subTitleRightLine3' | translate }}
+          </p>
+          <p class="font-monospace">
+            {{ 'contact.subTitleRightLine4' | translate }}
+          </p>
+          <p class="font-monospace">
+            {{ 'contact.subTitleRightLine5' | translate }}
+          </p>
+        </div>
+        <div class="row pt-5">
+          <h2 class="display-7 fw-bolder">{{ 'contact.socialMediaTitle' | translate }}</h2><br>
+          <p><a href="https://www.linkedin.com" target="_blank">
+              <img src="../../../assets/images/linkedin.svg" alt="linkedin" width="32" height="32"></a>
+          </p>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">{{ 'contact.email' | translate}} *</label>
-        <input type="email" class="form-control" formControlName="email" aria-describedby="emailHelp" required email
-          [ngClass]="displayFieldCss('email')">
-        <app-field-error-display [displayError]="isFieldValid('email')"
-          errorMsg="{{ 'contact.emailError' | translate}}">
-        </app-field-error-display>
-      </div>
-      <div class="mb-3">
-        <label for="phone" class="form-label">{{ 'contact.phone' | translate}} *</label>
-        <input type="tel" class="form-control" formControlName="phone" id="phone" required
-          [ngClass]="displayFieldCss('phone')">
-        <app-field-error-display [displayError]="isFieldValid('phone')"
-          errorMsg="{{ 'contact.phoneError' | translate}}">
-        </app-field-error-display>
-      </div>
-      <div class="mb-3">
-        <label for="message" class="form-label">{{ 'contact.message' | translate}} *</label>
-        <textarea class="form-control" formControlName="message" id="message" required
-          [ngClass]="displayFieldCss('message')" rows="3"></textarea>
-        <app-field-error-display [displayError]="isFieldValid('phone')"
-          errorMsg="{{ 'contact.messageError' | translate}}">
-        </app-field-error-display>
-      </div>
-      <div class="mb-3 form-check">
-        <label class="form-check-label" for="termsAndConditions">{{ 'contact.terms' | translate}}</label>
-        <input type="checkbox" class="form-check-input" id="termsAndConditions" formControlName="terms">
-        <app-field-error-display [displayError]="isFieldValid('terms')"
-          errorMsg="{{ 'contact.termsError' | translate}}">
-        </app-field-error-display>
-      </div>
-      <button type="submit" class="btn btn-primary">{{ 'contact.submit' | translate}}</button>
-    </form>
+    </div>
   </div>
 </section>

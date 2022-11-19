@@ -17,7 +17,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
 import { environment } from 'src/environments/environment';
-import { FieldErrorDisplayComponent } from './pages/contact/field-error-display/field-error-display.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -30,8 +29,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ServicesComponent,
     AboutComponent,
     ContactComponent,
-    PartnersComponent,
-    FieldErrorDisplayComponent
+    PartnersComponent
   ],
   imports: [
     BrowserModule,

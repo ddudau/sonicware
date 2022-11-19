@@ -4,25 +4,34 @@
     "services": "Services",
     "partners": "Partners",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "home": {
-    "h2": "Our solutions are awesome",
-    "p": ""
+    "h2": "We offer custom software and web solutions",
+    "p": "We are a team of trained experts which are professional and highly motivated. We work in agile and follow the best practices to deliver quality to our clients. We are focusing on latest technologies and trends that are abuzz in the market.",
+    "info": {
+      "h2": "We offer what we offer",
+      "p": "We are who we are"
+    }
   },
   "contact": {
     "firstName": "First name",
-    "firstNameError": "First name is required",
     "lastName": "Last name",
-    "lastNameError": "Last name is required",
     "email": "Email address",
-    "emailError": "Email address is required",
     "phone": "Phone number",
-    "phoneError": "Phone number is required",
     "message": "Message",
-    "messageError": "Message is required",
     "terms": "Accept terms and conditions",
     "termsError": "Please accept the terms and conditions",
-    "submit": "Submit"
+    "submit": "Submit",
+    "titleLeft": "Say hello to us!",
+    "subTitleLeft": "Let us know more about you!",
+    "titleRight": "Contact information",
+    "subTitleRightLine1": "Iasomiei 98",
+    "subTitleRightLine2": "Ghimbav, 507075",
+    "subTitleRightLine3": "Brasov, Romania",
+    "subTitleRightLine4": "Call us, +40(764)595959",
+    "subTitleRightLine5": "Email: dragos@sonicware.pro",
+    "socialMediaTitle": "Follow us"
   }
 }

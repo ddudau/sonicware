@@ -18,3 +18,10 @@ section {
 .container {
   position: relative;
 }
+
+@media (max-width: 960px) {
+  section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

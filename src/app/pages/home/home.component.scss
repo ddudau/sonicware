@@ -3,6 +3,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .home::before {
@@ -25,6 +26,17 @@
 @media (max-width: 1280px) {
   .home>.container {
     padding: 150px 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
   }
 }
 
