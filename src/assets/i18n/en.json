@@ -9,10 +9,11 @@
   },
   "home": {
     "h2": "We offer custom software and web solutions",
-    "p": "We are a team of trained experts which are professional and highly motivated. We work in agile and follow the best practices to deliver quality to our clients. We are focusing on latest technologies and trends that are abuzz in the market.",
+    "p": "Developing custom software solutions is becoming increasingly popular in today's digital age. These solutions are tailored to meet the specific needs and requirements of a particular business or organization, providing them with a competitive advantage in their respective industries. Custom software solutions can range from simple web applications to complex enterprise-level systems. They can automate business processes, improve operational efficiency, and enhance customer experience. By leveraging the latest technologies and programming languages, these solutions can be designed to integrate with existing systems and seamlessly fit into the workflow of an organization.",
     "info": {
-      "h2": "We can develop any application",
-      "p": "We have a good expertise on web applications, both onpremise and in the cloud"
+      "h3": "Outstanding Solutions!!",
+      "h2": "The power of new technologies",
+      "p": "New technologies have revolutionized the world in countless ways, from transforming the way we communicate and conduct business, to providing new avenues for education and entertainment. The power of these innovations lies in their ability to break down barriers and connect people across the globe, enabling us to share information, ideas, and experiences like never before."
     }
   },
   "contact": {
@@ -35,8 +36,26 @@
     "socialMediaTitle": "Follow us"
   },
   "partners": {
-    "h1": "Become SONICWARE partner",
-    "span": "Do you want to grow your business, develop new software or integrate you existing applications? We can offer you a wide range of services based on our experience with the partners that we are proudly serving",
+    "h1": "We are here to help",
+    "span": "Our business clients are at the heart of everything we do. We are committed to providing them with the highest level of service, quality, and value, and we strive to exceed their expectations at every opportunity. We work closely with our clients to understand their unique needs and challenges, and to develop tailored solutions that meet their specific requirements. Our clients come from a wide range of industries and sectors, and we are proud to serve both small businesses and large enterprises alike. We believe in building long-term relationships with our clients, based on trust, open communication, and a shared commitment to success.",
     "website": "Go to website"
+  },
+  "about": {
+    "h2": "About us",
+    "p1": "Our company is a provider of software development services, specializing in creating custom solutions that help businesses achieve their goals and streamline their operations. With a team of experienced developers and designers, we are committed to delivering innovative, high-quality software solutions that are tailored to the specific needs and requirements of each of our clients.",
+    "p2": "At our company, we take a collaborative approach to software development, working closely with our clients to understand their unique challenges and goals, and leveraging the latest technologies and development methodologies to create solutions that are both efficient and effective. From initial consultation and design, to development, testing, and deployment, we provide comprehensive services and support throughout the entire development process.",
+    "p3": "Our software development services encompass a wide range of industries and applications, including web and mobile applications, enterprise-level systems, and data analytics solutions. We are dedicated to staying at the forefront of the rapidly-evolving software development industry, and to providing our clients with the tools and expertise they need to succeed in today's competitive business landscape."
+  },
+  "services": {
+    "section1": {
+      "h2": "Simple",
+      "p1": "As a software development company, we offer a comprehensive range of services to help businesses stay ahead of the competition and achieve their goals. Our services encompass the full software development lifecycle, from initial consultation and design, to development, testing, and ongoing support and maintenance.",
+      "p2": "We specialize in creating custom software solutions that are tailored to the specific needs and requirements of each of our clients. Our team of experienced developers and designers leverage the latest technologies and development methodologies to create efficient, effective, and scalable solutions across a wide range of industries and applications."
+    },
+    "section2": {
+      "h2": "Efficient",
+      "p1": "Our services include web and mobile application development, enterprise-level system design and development, cloud-based solutions, and data analytics and visualization. We also offer consulting and strategy development services, as well as ongoing support and maintenance to ensure that our clients' software solutions remain up-to-date and fully functional.",
+      "p2": "At our company, we are committed to delivering innovative, high-quality software solutions that help businesses achieve their goals and stay ahead of the curve in a rapidly-evolving marketplace. We take a collaborative approach to software development, working closely with our clients to understand their unique needs and challenges and to create solutions that meet those needs and exceed their expectations."
+    }
   }
 }

@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   public version: string = packageJson.version;
   languages = [
     { code: 'en', label: 'English' },
-    { code: 'ro', label: 'Romana' },
+    { code: 'ro', label: 'Română' },
     { code: 'fr', label: 'Francais' }
   ];
   constructor(private translate: TranslateService) {
