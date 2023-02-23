@@ -1,6 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { ReCaptchaV3Service } from 'ng-recaptcha';
+import { Message } from 'src/app/shared/models/message.model';
+import { MessagesService } from 'src/app/shared/services/messages.service';
+import { takeUntil } from 'rxjs/operators';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-contact',
@@ -9,17 +13,19 @@ import { ReCaptchaV3Service } from 'ng-recaptcha';
 })
 export class ContactComponent implements OnInit, OnDestroy {
   form: FormGroup;
-  private _sub: any;
+  message: Message;
+  private destroy$: Subject<boolean> = new Subject<boolean>();
 
   constructor(private fb: FormBuilder,
-    private recaptchaV3Service: ReCaptchaV3Service) { }
+    private recaptchaV3Service: ReCaptchaV3Service,
+    private messagesService: MessagesService) { }
 
   ngOnInit(): void {
     this.form = this.fb.group({
       firstName: [null, Validators.required],
       lastName: [null, Validators.required],
       email: [null, [Validators.required, Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")]],
-      phone: [null, Validators.required],
+      phoneNumber: [null, Validators.required],
       terms: [null, Validators.required],
       message: [null, Validators.required]
     })
@@ -30,6 +36,15 @@ export class ContactComponent implements OnInit, OnDestroy {
       this.recaptchaV3Service.execute('importantAction')
         .subscribe((token: string) => {
           console.debug(`Token [${token}] generated`);
+          let messageToSend = new Message();
+          messageToSend.firstName = this.form.value.firstName;
+          messageToSend.lastName = this.form.value.lastName;
+          messageToSend.email = this.form.value.email;
+          messageToSend.phoneNumber = this.form.value.phoneNumber;
+          messageToSend.message = this.form.value.message;
+          this.messagesService.createMessage(messageToSend).pipe(takeUntil(this.destroy$)).subscribe(message => {
+            console.log(message);
+          });
         });
     } else {
       this.validateAllFormFields(this.form);
@@ -58,8 +73,7 @@ export class ContactComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    if (this._sub) {
-      this._sub.unsubscribe();
-    }
+    this.destroy$.next(true);
+    this.destroy$.unsubscribe();
   }
 }

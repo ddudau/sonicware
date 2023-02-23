@@ -11,15 +11,15 @@
     "h2": "We offer custom software and web solutions",
     "p": "We are a team of trained experts which are professional and highly motivated. We work in agile and follow the best practices to deliver quality to our clients. We are focusing on latest technologies and trends that are abuzz in the market.",
     "info": {
-      "h2": "We offer what we offer",
-      "p": "We are who we are"
+      "h2": "We can develop any application",
+      "p": "We have a good expertise on web applications, both onpremise and in the cloud"
     }
   },
   "contact": {
     "firstName": "First name",
     "lastName": "Last name",
     "email": "Email address",
-    "phone": "Phone number",
+    "phoneNumber": "Phone number",
     "message": "Message",
     "terms": "Accept terms and conditions",
     "termsError": "Please accept the terms and conditions",
@@ -33,5 +33,10 @@
     "subTitleRightLine4": "Call us, +40(764)595959",
     "subTitleRightLine5": "Email: dragos@sonicware.pro",
     "socialMediaTitle": "Follow us"
+  },
+  "partners": {
+    "h1": "Become SONICWARE partner",
+    "span": "Do you want to grow your business, develop new software or integrate you existing applications? We can offer you a wide range of services based on our experience with the partners that we are proudly serving",
+    "website": "Go to website"
   }
 }

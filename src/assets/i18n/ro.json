@@ -11,15 +11,15 @@
     "h2": "Oferim software personalizat și soluții web",
     "p": "Suntem o echipă de experți pregătiți, profesioniști și foarte motivați. Lucrăm în mod agil și urmăm cele mai bune practici pentru a oferi calitate clienților noștri. Ne concentrăm pe cele mai recente tehnologii și tendințe care sunt pe piață.",
     "info": {
-      "h2": "Va oferim c",
-      "p": "suntem n"
+      "h2": "Putem dezvolta orice aplicatie",
+      "p": "Avem expertiza buna pentru aplicatiile web, atat locale cat si in cloud"
     }
   },
   "contact": {
     "firstName": "Prenume",
     "lastName": "Nume",
     "email": "Adresa de email",
-    "phone": "Numar de telefon",
+    "phoneNumber": "Numar de telefon",
     "message": "Mesaj",
     "terms": "Accepta termeni si conditii",
     "termsError": "Va rugam sa acceptati termenii si conditiile",
@@ -33,5 +33,10 @@
     "subTitleRightLine4": "Suna-ne, +40(764)595959",
     "subTitleRightLine5": "Email: dragos@sonicware.pro",
     "socialMediaTitle": "Urmareste-ne"
+  },
+  "partners": {
+    "h1": "Devino partener SONICWARE",
+    "span": "Doriți să vă dezvoltați afacerea, să dezvoltați software nou sau să vă integrați aplicațiile existente? Vă putem oferi o gamă largă de servicii pe baza experienței noastre cu partenerii pe care îi servim cu mândrie",
+    "website": "Mergi la site"
   }
 }

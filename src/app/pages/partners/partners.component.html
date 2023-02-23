@@ -1,32 +1,21 @@
 <section class="partners">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>Few words about or partners</h1>
+    <div class="row justify-content-center my-5">
+      <div class="col-6">
+        <h1>{{ 'partners.h1' | translate }}</h1>
+        <span>{{ 'partners.span' | translate }}</span>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm">
-        <img height="500" width="500" src="../../../assets/images/home5.jpg">
-      </div>
-      <div class="col-sm">
-        <h2 class="display-4 fw-bolder">{{ 'home.h2' | translate }}</h2>
-        <p class="fw-lighter">parteneri</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="partners">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2 class="display-4 fw-bolder">{{ 'home.h2' | translate }}</h2>
-        <hr class="divider">
-        <p class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-      </div>
-      <div class="col-sm">
-        <img height="500" width="500" src="../assets/images/home1.jpg">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let partner of partners">
+        <div class="card">
+          <img class="card-img-top" src="{{ partner.imageUrl }}" alt="{{ partner.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ partner.name }}</h5>
+            <p class="card-text">{{ partner.description }}</p>
+            <a href="{{ partner.website }}" target="_blank" class="btn btn-primary">{{ 'partners.website' | translate }}</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

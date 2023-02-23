@@ -15,7 +15,7 @@
     "firstName": "Prenume",
     "lastName": "Nume",
     "email": "Email address",
-    "phone": "Phone number",
+    "phoneNumber": "Phone number",
     "message": "Message",
     "terms": "Accept terms and conditions",
     "termsError": "Please accept the terms and conditions",
@@ -29,5 +29,10 @@
     "subTitleRightLine4": "Call us, +40(764)595959",
     "subTitleRightLine5": "Email: dragos@sonicware.pro",
     "socialMediaTitle": "Follow us"
+  },
+  "partners": {
+    "h1": "Devino partener SONICWARE",
+    "span": "Doresti sa cresti businessul",
+    "website": "Mergi la site"
   }
 }

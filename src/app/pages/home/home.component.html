@@ -14,21 +14,8 @@
 <section class="clients bg-light">
   <div class="container">
     <div class="row pt-4 pb-4">
-      <div class="col-sm">
-        <a target="_blank" href="https://ec.europa.eu"><img src="../assets/images/ec.png" />
-        </a>
-      </div>
-      <div class="col-sm">
-        <a target="_blank" href="https:/raiffeisen.ro"><img src="../assets/images/raiffeisen.png" />
-        </a>
-
-      </div>
-      <div class="col-sm">
-        <a target="_blank" href="https://www.unisystems.com"><img height="45" src="../assets/images/unisystems.jpg" />
-        </a>
-      </div>
-      <div class="col-sm">
-        <a target="_blank" href="http://lifeincodes.com"><img src="../assets/images/life_in_codes.png" />
+      <div class="col-sm" *ngFor="let partner of partners">
+        <a target="_blank" href="{{ partner.website }}"><img src="{{ partner.imageUrl }}" />
         </a>
       </div>
     </div>

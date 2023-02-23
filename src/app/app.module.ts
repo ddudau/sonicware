@@ -17,6 +17,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
 import { environment } from 'src/environments/environment';
+import { MessagesService } from './shared/services/messages.service';
+import { PartnersService } from './shared/services/partners.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -54,7 +56,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     {
       provide: RECAPTCHA_V3_SITE_KEY,
       useValue: environment.recaptcha.siteKey,
-    }
+    },
+    MessagesService,
+    PartnersService
   ],
   bootstrap: [AppComponent],
 })

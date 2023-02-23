@@ -15,9 +15,8 @@ export class AppComponent implements OnInit {
     { code: 'fr', label: 'Francais' }
   ];
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('ro');
-    this.translate.use('ro');
-    console.log(this.version);
+    translate.setDefaultLang('en');
+    this.translate.use('en');
   }
 
   changeLang(lang: string) {
