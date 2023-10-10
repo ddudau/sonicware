@@ -1,0 +1,67 @@
+<section class="contact bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="row">
+          <h2 class="display-7 fw-bolder">{{ 'contact.titleLeft' | translate }}</h2>
+          <p class="fw-lighter">{{ 'contact.subTitleLeft' | translate }}</p>
+        </div>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+          <div class="row g-1">
+            <div class="col-6">
+              <input type="text" class="form-control" id="firstName" formControlName="firstName" required
+                [ngClass]="displayFieldCss('firstName')" placeholder="{{ 'contact.firstName' | translate}} *">
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control" id="lastName" formControlName="lastName" required
+                [ngClass]="displayFieldCss('lastName')" placeholder="{{ 'contact.lastName' | translate}} *">
+            </div>
+            <div class="col-6">
+              <input type="email" class="form-control" formControlName="email" aria-describedby="emailHelp" required
+                email [ngClass]="displayFieldCss('email')" placeholder="{{ 'contact.email' | translate}} *">
+            </div>
+            <div class="col-6">
+              <input type="tel" class="form-control" formControlName="phoneNumber" id="phoneNumber" required
+                [ngClass]="displayFieldCss('phoneNumber')" placeholder="{{ 'contact.phoneNumber' | translate}} *">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" formControlName="message" id="message" required
+                [ngClass]="displayFieldCss('message')" rows="3"
+                placeholder="{{ 'contact.message' | translate}} *"></textarea>
+            </div>
+            <div class="col-12 form-check">
+              <label class="form-check-label" for="termsAndConditions">{{ 'contact.terms' | translate}}</label>
+              <input type="checkbox" class="form-check-input" id="termsAndConditions" formControlName="terms" required
+                [ngClass]="displayFieldCss('terms')">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">{{ 'contact.submit' | translate}}</button>
+        </form>
+      </div>
+      <div class="col-sm-5">
+        <div class="row">
+          <h2 class="display-7 fw-bolder">{{ 'contact.titleRight' | translate }}</h2>
+        </div>
+        <div class="row pt-5">
+          <p class="font-monospace">
+            {{ 'contact.subTitleRightLine1' | translate }}<br>
+            {{ 'contact.subTitleRightLine2' | translate }}<br>
+            {{ 'contact.subTitleRightLine3' | translate }}
+          </p>
+          <p class="font-monospace">
+            {{ 'contact.subTitleRightLine4' | translate }}
+          </p>
+          <p class="font-monospace">
+            {{ 'contact.subTitleRightLine5' | translate }}
+          </p>
+        </div>
+        <div class="row pt-5">
+          <h2 class="display-7 fw-bolder">{{ 'contact.socialMediaTitle' | translate }}</h2><br>
+          <p><a href="https://www.linkedin.com" target="_blank">
+              <img src="../../../assets/images/linkedin.svg" alt="linkedin" width="32" height="32"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+<section class="partners">
+  <div class="container">
+    <div class="row justify-content-center my-5">
+      <div class="col-6">
+        <h1>{{ 'partners.h1' | translate }}</h1>
+        <span>{{ 'partners.span' | translate }}</span>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let partner of partners">
+        <div class="card">
+          <img class="card-img-top" src="{{ partner.imageUrl }}" alt="{{ partner.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ partner.name }}</h5>
+            <p class="card-text">{{ partner.description }}</p>
+            <a href="{{ partner.website }}" target="_blank" class="btn btn-primary">{{ 'partners.website' | translate }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

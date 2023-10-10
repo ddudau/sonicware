@@ -1,0 +1,44 @@
+{
+  "messages": [
+    {
+      "firstName": "1",
+      "lastName": "FC Barcelona",
+      "email": "Ernesto Valverde",
+      "phoneNumber": "The best football team in the world!",
+      "message": "test"
+    },
+    {
+      "firstName": "2",
+      "lastName": "FC Barcelona",
+      "email": "Ernesto Valverde",
+      "phoneNumber": "The best football team in the world!",
+      "message": "test"
+    }
+  ],
+  "partners": [
+    {
+      "name": "European Commission",
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "imageUrl": "../../../assets/images/ec.png",
+      "website": "https://www.europa.eu"
+    },
+    {
+      "name": "Unisystems",
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "imageUrl": "../../../assets/images/unisystems.jpg",
+      "website": "https://www.unisystems.eu"
+    },
+    {
+      "name": "Life in codes",
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "imageUrl": "../../../assets/images/life_in_codes.png",
+      "website": "https://www.lifeincodes.com"
+    },
+    {
+      "name": "Raiffeisen Bank",
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "imageUrl": "../../../assets/images/raiffeisen.png",
+      "website": "https://www.raiffeisen.ro"
+    }
+  ]
+}

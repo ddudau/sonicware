@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "partners": "Parteneri",
+    "about": "Despre noi",
+    "contact": "Contact",
+    "language": "Limba"
+  },
+  "home": {
+    "h2": "Oferim software personalizat și soluții web",
+    "p": "Dezvoltarea de soluții software personalizate devine din ce în ce mai populară în era digitală de astăzi. Aceste soluții sunt adaptate pentru a satisface nevoile și cerințele specifice ale unei anumite afaceri sau organizații, oferindu-le un avantaj competitiv în industriile respective. Soluțiile software personalizate pot varia de la simple aplicații web la sisteme complexe la nivel de întreprindere. Aceștia pot automatiza procesele de afaceri, pot îmbunătăți eficiența operațională și pot îmbunătăți experiența clienților. Folosind cele mai recente tehnologii și limbaje de programare, aceste soluții pot fi proiectate să se integreze cu sistemele existente și să se potrivească perfect în fluxul de lucru al unei organizații.",
+    "info": {
+      "h3": "Solutii exceptionale!!",
+      "h2": "Puterea noilor tehnologii",
+      "p": "Noile tehnologii au revoluționat lumea în nenumărate moduri, de la transformarea modului în care comunicăm și desfășurăm afaceri, până la oferirea de noi căi pentru educație și divertisment. Puterea acestor inovații constă în capacitatea lor de a înlătura barierele și de a conecta oamenii de pe tot globul, permițându-ne să împărtășim informații, idei și experiențe ca niciodată."
+    }
+  },
+  "contact": {
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "email": "Adresa de email",
+    "phoneNumber": "Număr de telefon",
+    "message": "Mesaj",
+    "terms": "Acceptă termeni și condțtii",
+    "termsError": "Vă rugăm să acceptați termenii și condițiile",
+    "submit": "Trimite",
+    "titleLeft": "Salut!",
+    "subTitleLeft": "Cu ce te putem ajuta?",
+    "titleRight": "Informații",
+    "subTitleRightLine1": "Iasomiei 98",
+    "subTitleRightLine2": "Ghimbav, 507075",
+    "subTitleRightLine3": "Brașov, România",
+    "subTitleRightLine4": "Sună-ne, +40(764)595959",
+    "subTitleRightLine5": "Email: dragos@sonicware.pro",
+    "socialMediaTitle": "Urmăreste-ne"
+  },
+  "partners": {
+    "h1": "Suntem aici sa ajutam",
+    "span": "Clienții noștri de afaceri sunt în centrul a tot ceea ce facem. Ne angajăm să le oferim cel mai înalt nivel de servicii, calitate și valoare și ne străduim să le depășim așteptările cu fiecare oportunitate. Lucrăm îndeaproape cu clienții noștri pentru a înțelege nevoile și provocările lor unice și pentru a dezvolta soluții personalizate care să răspundă cerințelor lor specifice. Clienții noștri provin dintr-o gamă largă de industrii și sectoare și suntem mândri să servim atât întreprinderile mici, cât și întreprinderile mari. Credem în construirea de relații pe termen lung cu clienții noștri, bazate pe încredere, comunicare deschisă și angajament comun pentru succes.",
+    "website": "Mergi la site"
+  },
+  "about": {
+    "h2": "Despre noi",
+    "p1": "Compania noastra este un furnizor de servicii de dezvoltare software, specializata in crearea de solutii personalizate care ajuta companiile sa-si atinga obiectivele si sa-si eficientizeze operatiunile. Cu o echipă de dezvoltatori și designeri cu experiență, ne angajăm să oferim soluții software inovatoare, de înaltă calitate, care sunt adaptate nevoilor și cerințelor specifice ale fiecărui client.",
+    "p2": "La compania noastră, adoptăm o abordare colaborativă a dezvoltării software, lucrând îndeaproape cu clienții noștri pentru a înțelege provocările și obiectivele lor unice și utilizând cele mai recente tehnologii și metodologii de dezvoltare pentru a crea soluții care sunt atât eficiente, cât și eficiente. De la consultarea și proiectarea inițială, până la dezvoltare, testare și implementare, oferim servicii complete și asistență pe parcursul întregului proces de dezvoltare.",
+    "p3": "Serviciile noastre de dezvoltare software cuprind o gamă largă de industrii și aplicații, inclusiv aplicații web și mobile, sisteme la nivel de întreprindere și soluții de analiză a datelor. Suntem dedicați să rămânem în fruntea industriei de dezvoltare software care evoluează rapid și să oferim clienților noștri instrumentele și expertiza de care au nevoie pentru a reuși în peisajul competitiv al afacerilor de astăzi."
+  },
+  "services": {
+    "section1": {
+      "h2": "Simplu",
+      "p1": "În calitate de companie de dezvoltare de software, oferim o gamă cuprinzătoare de servicii pentru a ajuta companiile să rămână în fața concurenței și să-și atingă obiectivele. Serviciile noastre cuprind întregul ciclu de viață al dezvoltării software, de la consultarea și proiectarea inițială, până la dezvoltare, testare și asistență și întreținere continuă.",
+      "p2": "Suntem specializați în crearea de soluții software personalizate care sunt adaptate nevoilor și cerințelor specifice ale fiecăruia dintre clienții noștri. Echipa noastră de dezvoltatori și designeri cu experiență folosește cele mai recente tehnologii și metodologii de dezvoltare pentru a crea soluții eficiente, eficiente și scalabile într-o gamă largă de industrii și aplicații."
+    },
+    "section2": {
+      "h2": "Eficient",
+      "p1": "Serviciile noastre includ dezvoltarea de aplicații web și mobile, proiectarea și dezvoltarea sistemelor la nivel de întreprindere, soluții bazate pe cloud și analiza și vizualizarea datelor. Oferim, de asemenea, servicii de consultanță și dezvoltare de strategie, precum și asistență și întreținere continuă pentru a ne asigura că soluțiile software ale clienților noștri rămân la zi și pe deplin funcționale.",
+      "p2": "În compania noastră, ne angajăm să oferim soluții software inovatoare, de înaltă calitate, care ajută companiile să-și atingă obiectivele și să rămână în fruntea curbei pe o piață în evoluție rapidă. Adoptăm o abordare colaborativă a dezvoltării software, lucrând îndeaproape cu clienții noștri pentru a înțelege nevoile și provocările lor unice și pentru a crea soluții care să răspundă acestor nevoi și să le depășească așteptările."
+    }
+  }
+}
